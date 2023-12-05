@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="833bd4cc-25a4-495d-a0a9-a9bf3eca2ee1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/chronicle-frontend" beforeDir="false" afterPath="$PROJECT_DIR$/chronicle-frontend" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chronicle-frontend/src/app/AuthGuard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/chronicle-frontend/src/app/AuthGuard.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +16,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
