@@ -1,0 +1,42 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/chronicle-frontend/dist
+/chronicle-frontend/tmp
+/chronicle-frontend/out-tsc
+/chronicle-frontend/bazel-out
+
+# Node
+/chronicle-frontend/node_modules
+chronicle-frontend/npm-debug.log
+chronicle-frontend/yarn-error.log
+
+# IDEs and editors
+chronicle-frontend/.idea/
+chronicle-frontend/.project
+chronicle-frontend/.classpath
+chronicle-frontend/.c9/
+chronicle-frontend/*.launch
+chronicle-frontend/.settings/
+chronicle-frontend/*.sublime-workspace
+
+# Visual Studio Code
+chronicle-frontend/.vscode/*
+chronicle-frontend/!.vscode/settings.json
+chronicle-frontend/!.vscode/tasks.json
+chronicle-frontend/!.vscode/launch.json
+chronicle-frontend!.vscode/extensions.json
+chronicle-frontend/.history/*
+
+# Miscellaneous
+/chronicle-frontend/.angular/cache
+chronicle-frontend/.sass-cache/
+/chronicle-frontend/connect.lock
+/chronicle-frontend/coverage
+/chronicle-frontend/libpeerconnection.log
+/chronicle-frontend/testem.log
+/chronicle-frontend/typings
+
+# System files
+chronicle-frontend/.DS_Store
+chronicle-frontend/Thumbs.db
