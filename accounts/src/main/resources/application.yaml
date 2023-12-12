@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: chronicle-accounts
+  config:
+    import: "optional:configserver:http://localhost:8088"
+    # this specifies the import from configserver
+    # it made optional because, if it fails to load still the app should work
+  datasource:
+    url: jdbc:mysql://localhost:3306/accounts
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Jithin123
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+app:
+  client:
+    url: http://localhost:4200
