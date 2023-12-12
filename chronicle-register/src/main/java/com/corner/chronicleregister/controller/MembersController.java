@@ -59,6 +59,7 @@ public class MembersController {
     @DeleteMapping("deleteMember/{id}")
     public ResponseEntity<String> deleteMember(@PathVariable Long id){
         try{
+            System.out.println("Delete id: "+id);
             membersService.deleteMemberById(id);
             return ResponseEntity.status(HttpStatus.OK).build();
         } catch (NoSuchElementException e) {
