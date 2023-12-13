@@ -14,7 +14,7 @@ public class Members {
     private String name;
     private int phone;
     private String email;
-    private Date dateOfBirth;
+//    private Date dateOfBirth;
 
     @ManyToOne(cascade = CascadeType.MERGE)
     @JoinColumn(name = "family")

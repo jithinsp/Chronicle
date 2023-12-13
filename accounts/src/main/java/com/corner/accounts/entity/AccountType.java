@@ -14,6 +14,4 @@ public class AccountType {
     private Long id;
     private String type;
     private String description;
-    @ManyToMany(mappedBy = "accountType")
-    private List<Cash> cash = new ArrayList<>();
 }

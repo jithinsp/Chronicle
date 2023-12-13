@@ -3,6 +3,7 @@ package com.corner.accounts.entity;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -15,11 +16,13 @@ public class Cash {
     private Long id;
     private double amount;
     private Date date;
+    private LocalDateTime enteredDate;
     private String enteredBy;
     private boolean isVerified;
     @ManyToOne(cascade = CascadeType.MERGE)
     @JoinColumn(name="members")
     private Members members;
-    @ManyToMany
-    private List<AccountType> accountType = new ArrayList<>();
+    @ManyToOne(cascade = CascadeType.MERGE)
+    @JoinColumn(name="accountType")
+    private AccountType accountType;
 }
